@@ -122,28 +122,12 @@
                         <outlet property="L31" destination="PNH-qw-DC7" id="Bdy-ZN-TKu"/>
                         <outlet property="L32" destination="SSk-AT-1A9" id="wmX-BI-B1T"/>
                         <outlet property="L33" destination="fSw-Hr-iQ1" id="0r5-aC-Otz"/>
+                        <outlet property="colorModeSegmentedControl" destination="HTz-pq-4to" id="3ri-0n-Uwx"/>
                     </connections>
                 </viewController>
             </objects>
         </scene>
     </scenes>
-    <classes>
-        <class className="CMEViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CMEViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="colorModeSegmentedControlPressed:" candidateClass="UISegmentedControl"/>
-                <relationship kind="outlet" name="L11" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L12" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L13" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L21" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L22" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L23" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L31" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L32" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L33" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>

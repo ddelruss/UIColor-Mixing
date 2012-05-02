@@ -11,6 +11,7 @@
 @interface CMEViewController : UIViewController
 
 - (IBAction)colorModeSegmentedControlPressed:(UISegmentedControl*)sender;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *colorModeSegmentedControl;
 
 // Top row:
 @property (weak, nonatomic) IBOutlet UILabel *L11;

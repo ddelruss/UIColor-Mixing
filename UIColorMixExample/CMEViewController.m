@@ -10,6 +10,7 @@
 #import "UIColor+Mixing.h"
 
 @implementation CMEViewController
+@synthesize colorModeSegmentedControl;
 @synthesize L11;
 @synthesize L12;
 @synthesize L13;
@@ -23,7 +24,7 @@
 
 #pragma mark - View lifecycle
 
-- (void)recolorLabels {
+- (void)recolorLabelsRGB {
     self.L21.backgroundColor = [UIColor rgbMixForColors:[NSArray arrayWithObjects:
                                                          self.L11.backgroundColor,
                                                          self.L31.backgroundColor, 
@@ -46,6 +47,42 @@
                                                          self.L31.backgroundColor,
                                                          self.L33.backgroundColor, 
                                                          nil]];
+}
+
+- (void)recolorLabelsRYB {
+    self.L21.backgroundColor = [UIColor rybMixForColors:[NSArray arrayWithObjects:
+                                                         self.L11.backgroundColor,
+                                                         self.L31.backgroundColor, 
+                                                         nil]];
+    self.L12.backgroundColor = [UIColor rybMixForColors:[NSArray arrayWithObjects:
+                                                         self.L11.backgroundColor,
+                                                         self.L13.backgroundColor, 
+                                                         nil]];
+    self.L23.backgroundColor = [UIColor rybMixForColors:[NSArray arrayWithObjects:
+                                                         self.L13.backgroundColor,
+                                                         self.L33.backgroundColor, 
+                                                         nil]];
+    self.L32.backgroundColor = [UIColor rybMixForColors:[NSArray arrayWithObjects:
+                                                         self.L31.backgroundColor,
+                                                         self.L33.backgroundColor, 
+                                                         nil]];
+    self.L22.backgroundColor = [UIColor rybMixForColors:[NSArray arrayWithObjects:
+                                                         self.L11.backgroundColor,
+                                                         self.L13.backgroundColor, 
+                                                         self.L31.backgroundColor,
+                                                         self.L33.backgroundColor, 
+                                                         nil]];
+}
+
+- (void)recolorLabels {
+    switch (self.colorModeSegmentedControl.selectedSegmentIndex) {
+        case 0:
+            [self recolorLabelsRGB];
+            break;
+        case 1:
+            [self recolorLabelsRYB];
+            break;
+    }
 }
 
 - (void)randomL11 {
@@ -135,6 +172,7 @@
     [self setL31:nil];
     [self setL32:nil];
     [self setL33:nil];
+    [self setColorModeSegmentedControl:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
