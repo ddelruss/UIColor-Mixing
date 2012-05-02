@@ -118,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB6F634115516DB00041C07E /* UIColorMixExample */ = {
+		DB6F634115516DB00041C07E /* ColorBoard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB6F636315516DB10041C07E /* Build configuration list for PBXNativeTarget "UIColorMixExample" */;
+			buildConfigurationList = DB6F636315516DB10041C07E /* Build configuration list for PBXNativeTarget "ColorBoard" */;
 			buildPhases = (
 				DB6F633E15516DB00041C07E /* Sources */,
 				DB6F633F15516DB00041C07E /* Frameworks */,
@@ -130,7 +130,7 @@
 			);
 			dependencies = (
 			);
-			name = UIColorMixExample;
+			name = ColorBoard;
 			productName = UIColorMixExample;
 			productReference = DB6F634215516DB00041C07E /* UIColorMixExample.app */;
 			productType = "com.apple.product-type.application";
@@ -155,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB6F634115516DB00041C07E /* UIColorMixExample */,
+				DB6F634115516DB00041C07E /* ColorBoard */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +236,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = ColorBoard;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -256,6 +257,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = ColorBoard;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -296,7 +298,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB6F636315516DB10041C07E /* Build configuration list for PBXNativeTarget "UIColorMixExample" */ = {
+		DB6F636315516DB10041C07E /* Build configuration list for PBXNativeTarget "ColorBoard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB6F636415516DB10041C07E /* Debug */,
