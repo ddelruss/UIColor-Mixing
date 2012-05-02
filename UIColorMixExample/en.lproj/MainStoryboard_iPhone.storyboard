@@ -123,6 +123,7 @@
                         <outlet property="L31" destination="vX4-dx-a4T" id="HjM-rt-wrz"/>
                         <outlet property="L32" destination="J16-V8-6YL" id="kY2-zA-yHB"/>
                         <outlet property="L33" destination="kfW-lt-a0h" id="0fJ-C3-h6j"/>
+                        <outlet property="colorModeSegmentedControl" destination="sJs-KF-SbF" id="Dyd-0r-fGj"/>
                     </connections>
                 </viewController>
             </objects>
