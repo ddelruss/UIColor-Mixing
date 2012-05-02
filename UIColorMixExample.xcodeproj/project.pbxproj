@@ -23,15 +23,15 @@
 		DB6F634615516DB00041C07E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DB6F634815516DB00041C07E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DB6F634A15516DB00041C07E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DB6F634E15516DB00041C07E /* UIColorMixExample-Info.plist */ = {isa = PBXFileReference; path = "UIColorMixExample-Info.plist"; sourceTree = "<group>"; };
+		DB6F634E15516DB00041C07E /* UIColorMixExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIColorMixExample-Info.plist"; sourceTree = "<group>"; };
 		DB6F635015516DB00041C07E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DB6F635215516DB10041C07E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DB6F635415516DB10041C07E /* UIColorMixExample-Prefix.pch */ = {isa = PBXFileReference; path = "UIColorMixExample-Prefix.pch"; sourceTree = "<group>"; };
-		DB6F635515516DB10041C07E /* CMEAppDelegate.h */ = {isa = PBXFileReference; path = CMEAppDelegate.h; sourceTree = "<group>"; };
+		DB6F635415516DB10041C07E /* UIColorMixExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColorMixExample-Prefix.pch"; sourceTree = "<group>"; };
+		DB6F635515516DB10041C07E /* CMEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMEAppDelegate.h; sourceTree = "<group>"; };
 		DB6F635615516DB10041C07E /* CMEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMEAppDelegate.m; sourceTree = "<group>"; };
 		DB6F635915516DB10041C07E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		DB6F635C15516DB10041C07E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		DB6F635E15516DB10041C07E /* CMEViewController.h */ = {isa = PBXFileReference; path = CMEViewController.h; sourceTree = "<group>"; };
+		DB6F635E15516DB10041C07E /* CMEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMEViewController.h; sourceTree = "<group>"; };
 		DB6F635F15516DB10041C07E /* CMEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMEViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

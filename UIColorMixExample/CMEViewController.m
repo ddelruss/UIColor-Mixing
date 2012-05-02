@@ -9,6 +9,17 @@
 #import "CMEViewController.h"
 
 @implementation CMEViewController
+@synthesize L13;
+@synthesize L23;
+@synthesize L33;
+@synthesize L12;
+@synthesize L22;
+@synthesize L32;
+@synthesize L21;
+@synthesize L11;
+@synthesize L21;
+@synthesize L31;
+@synthesize Labels;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +37,17 @@
 
 - (void)viewDidUnload
 {
+    [self setLabels:nil];
+    [self setL11:nil];
+    [self setL21:nil];
+    [self setL31:nil];
+    [self setL21:nil];
+    [self setL12:nil];
+    [self setL22:nil];
+    [self setL32:nil];
+    [self setL13:nil];
+    [self setL23:nil];
+    [self setL33:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -61,4 +83,6 @@
     }
 }
 
+- (IBAction)colorModeSegmentedControl:(id)sender {
+}
 @end
