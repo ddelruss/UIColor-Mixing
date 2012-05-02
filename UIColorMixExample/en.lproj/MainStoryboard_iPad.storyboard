@@ -20,13 +20,14 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="DnT-O6-Oc7"/>
                                     <barButtonItem style="plain" id="29w-rX-dRj">
                                         <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="HTz-pq-4to">
-                                            <rect key="frame" x="280" y="8" width="207" height="30"/>
+                                            <rect key="frame" x="174" y="8" width="420" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <segments>
                                                 <segment title="RGB"/>
                                                 <segment title="RYB"/>
                                                 <segment title="CMYK"/>
                                             </segments>
+                                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <connections>
                                                 <action selector="colorModeSegmentedControlPressed:" destination="2" eventType="valueChanged" id="5Y6-lt-fGk"/>
                                             </connections>
@@ -111,10 +112,38 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="L11" destination="3pM-od-GF7" id="ZLQ-0b-LRV"/>
+                        <outlet property="L12" destination="z1i-5H-HdZ" id="xdJ-Kw-yfL"/>
+                        <outlet property="L13" destination="EMR-Y7-09F" id="GVf-bU-s1s"/>
+                        <outlet property="L21" destination="8qc-j4-zKr" id="ZKC-a9-n8a"/>
+                        <outlet property="L22" destination="ZX9-TM-3zq" id="i2r-uP-xZ3"/>
+                        <outlet property="L23" destination="p38-z4-ctd" id="6kb-UX-mCl"/>
+                        <outlet property="L31" destination="PNH-qw-DC7" id="Bdy-ZN-TKu"/>
+                        <outlet property="L32" destination="SSk-AT-1A9" id="wmX-BI-B1T"/>
+                        <outlet property="L33" destination="fSw-Hr-iQ1" id="0r5-aC-Otz"/>
+                    </connections>
                 </viewController>
             </objects>
         </scene>
     </scenes>
+    <classes>
+        <class className="CMEViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CMEViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="colorModeSegmentedControlPressed:" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="L11" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="L12" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="L13" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="L21" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="L22" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="L23" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="L31" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="L32" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="L33" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
