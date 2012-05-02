@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB6F634215516DB00041C07E /* UIColorMixExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIColorMixExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6F634215516DB00041C07E /* ColorBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6F634615516DB00041C07E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DB6F634815516DB00041C07E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DB6F634A15516DB00041C07E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		DB6F634315516DB00041C07E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB6F634215516DB00041C07E /* UIColorMixExample.app */,
+				DB6F634215516DB00041C07E /* ColorBoard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,7 +132,7 @@
 			);
 			name = ColorBoard;
 			productName = UIColorMixExample;
-			productReference = DB6F634215516DB00041C07E /* UIColorMixExample.app */;
+			productReference = DB6F634215516DB00041C07E /* ColorBoard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

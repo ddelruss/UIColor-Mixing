@@ -3,7 +3,7 @@
 //  UIColorMixExample
 //
 //  Created by Damien Del Russo on 5/2/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012. All rights reserved.
 //
 
 #import "UIColor+Mixing.h"
@@ -137,7 +137,6 @@
         m = 0;
         y = 0;
     }
-    //simple algorithm ensures values are within bounds, so no need for setters with controls
     if (cyan) *cyan = c;
     if (magenta) *magenta = m;
     if (yellow) *yellow = y;
@@ -174,21 +173,9 @@
     //    c1 = c1Total/count;
     //    c2 = c2Total/count;
     //    c3 = c3Total/count;
-    c1 = c1Total/sqrt((sqrt(count-1))); // works great for additive light
-    c2 = c2Total/sqrt((sqrt(count-1)));
-    c3 = c3Total/sqrt((sqrt(count-1)));
-    //    c1 = c1Total*m1;
-    //    c2 = c2Total*m2;
-    //    c3 = c3Total*m3;
-        
-    // average whiteness and add into final color
-    //    w1 = wTotal/count;
-    
-    //    c1 += w1;
-    //    c2 += w1;
-    //    c3 += w1;
-    
-    //    NSLog(@"Ending color is %i, %i, %i",c1, c2, c3);
+    c1 = c1Total/sqrt((sqrt(count))); // this looks good, but use count-1 for truer light mix (more whites)
+    c2 = c2Total/sqrt((sqrt(count)));
+    c3 = c3Total/sqrt((sqrt(count)));
     
     resultColor = [UIColor colorWithRed:c1 green:c2 blue:c3 alpha:1.0];        
     
