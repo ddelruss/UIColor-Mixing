@@ -99,6 +99,7 @@
                                                 <segment title="RYB"/>
                                                 <segment title="CMYK"/>
                                             </segments>
+                                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <connections>
                                                 <action selector="colorModeSegmentedControlPressed:" destination="2" eventType="valueChanged" id="Xlw-F3-IHD"/>
                                             </connections>
@@ -111,11 +112,12 @@
                         </subviews>
                         <color key="backgroundColor" white="0.21187842153284675" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <connections>
                         <outlet property="L11" destination="lbz-tm-aq4" id="wed-8d-r11"/>
                         <outlet property="L12" destination="lPD-I0-1kJ" id="4ah-qn-sTV"/>
                         <outlet property="L13" destination="6IE-kj-6VQ" id="YiT-eb-eZj"/>
-                        <outlet property="L21" destination="lPD-I0-1kJ" id="RDr-jl-Nrq"/>
+                        <outlet property="L21" destination="17O-IC-svy" id="SGa-c6-yav"/>
                         <outlet property="L22" destination="GXI-7u-JcO" id="AHW-xq-iPo"/>
                         <outlet property="L23" destination="Cup-qx-Jwq" id="SNh-R2-fRj"/>
                         <outlet property="L31" destination="vX4-dx-a4T" id="HjM-rt-wrz"/>

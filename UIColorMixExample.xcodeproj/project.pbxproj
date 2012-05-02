@@ -16,6 +16,7 @@
 		DB6F635A15516DB10041C07E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6F635815516DB10041C07E /* MainStoryboard_iPhone.storyboard */; };
 		DB6F635D15516DB10041C07E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6F635B15516DB10041C07E /* MainStoryboard_iPad.storyboard */; };
 		DB6F636015516DB10041C07E /* CMEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F635F15516DB10041C07E /* CMEViewController.m */; };
+		DB6F636F155185850041C07E /* UIColor+Mixing.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F636E155185850041C07E /* UIColor+Mixing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		DB6F635C15516DB10041C07E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		DB6F635E15516DB10041C07E /* CMEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMEViewController.h; sourceTree = "<group>"; };
 		DB6F635F15516DB10041C07E /* CMEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMEViewController.m; sourceTree = "<group>"; };
+		DB6F636D155185850041C07E /* UIColor+Mixing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Mixing.h"; sourceTree = "<group>"; };
+		DB6F636E155185850041C07E /* UIColor+Mixing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Mixing.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				DB6F634C15516DB00041C07E /* UIColorMixExample */,
+				DB6F636C1551851F0041C07E /* UIColorMixing */,
 				DB6F634515516DB00041C07E /* Frameworks */,
 				DB6F634315516DB00041C07E /* Products */,
 			);
@@ -99,6 +103,16 @@
 				DB6F635415516DB10041C07E /* UIColorMixExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB6F636C1551851F0041C07E /* UIColorMixing */ = {
+			isa = PBXGroup;
+			children = (
+				DB6F636D155185850041C07E /* UIColor+Mixing.h */,
+				DB6F636E155185850041C07E /* UIColor+Mixing.m */,
+			);
+			name = UIColorMixing;
+			path = UIColorMixExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +181,7 @@
 				DB6F635315516DB10041C07E /* main.m in Sources */,
 				DB6F635715516DB10041C07E /* CMEAppDelegate.m in Sources */,
 				DB6F636015516DB10041C07E /* CMEViewController.m in Sources */,
+				DB6F636F155185850041C07E /* UIColor+Mixing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
