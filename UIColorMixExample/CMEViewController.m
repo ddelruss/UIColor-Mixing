@@ -3,11 +3,12 @@
 //  UIColorMixExample
 //
 //  Created by Damien Del Russo on 5/2/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012. All rights reserved.
 //
 
 #import "CMEViewController.h"
 #import "UIColor+Mixing.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation CMEViewController
 @synthesize colorModeSegmentedControl;
@@ -25,128 +26,131 @@
 #pragma mark - View lifecycle
 
 - (void)recolorLabelsRGB {
-    self.L21.backgroundColor = [UIColor rgbMixForColors:[NSArray arrayWithObjects:
-                                                         self.L11.backgroundColor,
-                                                         self.L31.backgroundColor, 
-                                                         nil]];
-    self.L12.backgroundColor = [UIColor rgbMixForColors:[NSArray arrayWithObjects:
-                                                         self.L11.backgroundColor,
-                                                         self.L13.backgroundColor, 
-                                                         nil]];
-    self.L23.backgroundColor = [UIColor rgbMixForColors:[NSArray arrayWithObjects:
-                                                         self.L13.backgroundColor,
-                                                         self.L33.backgroundColor, 
-                                                         nil]];
-    self.L32.backgroundColor = [UIColor rgbMixForColors:[NSArray arrayWithObjects:
-                                                         self.L31.backgroundColor,
-                                                         self.L33.backgroundColor, 
-                                                         nil]];
-    self.L22.backgroundColor = [UIColor rgbMixForColors:[NSArray arrayWithObjects:
-                                                         self.L11.backgroundColor,
-                                                         self.L13.backgroundColor, 
-                                                         self.L31.backgroundColor,
-                                                         self.L33.backgroundColor, 
-                                                         nil]];
+    self.L21.layer.backgroundColor = [UIColor rgbMixForColors:[NSArray arrayWithObjects:
+                                                         [UIColor colorWithCGColor:self.L11.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L31.layer.backgroundColor], 
+                                                         nil]].CGColor;
+    self.L12.layer.backgroundColor = [UIColor rgbMixForColors:[NSArray arrayWithObjects:
+                                                         [UIColor colorWithCGColor:self.L11.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L13.layer.backgroundColor], 
+                                                         nil]].CGColor;
+    self.L23.layer.backgroundColor = [UIColor rgbMixForColors:[NSArray arrayWithObjects:
+                                                         [UIColor colorWithCGColor:self.L13.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L33.layer.backgroundColor], 
+                                                         nil]].CGColor;
+    self.L32.layer.backgroundColor = [UIColor rgbMixForColors:[NSArray arrayWithObjects:
+                                                         [UIColor colorWithCGColor:self.L31.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L33.layer.backgroundColor], 
+                                                         nil]].CGColor;
+    self.L22.layer.backgroundColor = [UIColor rgbMixForColors:[NSArray arrayWithObjects:
+                                                         [UIColor colorWithCGColor:self.L11.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L13.layer.backgroundColor], 
+                                                         [UIColor colorWithCGColor:self.L31.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L33.layer.backgroundColor], 
+                                                         nil]].CGColor;
 }
 
 - (void)recolorLabelsRYB {
-    self.L21.backgroundColor = [UIColor rybMixForColors:[NSArray arrayWithObjects:
-                                                         self.L11.backgroundColor,
-                                                         self.L31.backgroundColor, 
-                                                         nil]];
-    self.L12.backgroundColor = [UIColor rybMixForColors:[NSArray arrayWithObjects:
-                                                         self.L11.backgroundColor,
-                                                         self.L13.backgroundColor, 
-                                                         nil]];
-    self.L23.backgroundColor = [UIColor rybMixForColors:[NSArray arrayWithObjects:
-                                                         self.L13.backgroundColor,
-                                                         self.L33.backgroundColor, 
-                                                         nil]];
-    self.L32.backgroundColor = [UIColor rybMixForColors:[NSArray arrayWithObjects:
-                                                         self.L31.backgroundColor,
-                                                         self.L33.backgroundColor, 
-                                                         nil]];
-    self.L22.backgroundColor = [UIColor rybMixForColors:[NSArray arrayWithObjects:
-                                                         self.L11.backgroundColor,
-                                                         self.L13.backgroundColor, 
-                                                         self.L31.backgroundColor,
-                                                         self.L33.backgroundColor, 
-                                                         nil]];
+    self.L21.layer.backgroundColor = [UIColor rybMixForColors:[NSArray arrayWithObjects:
+                                                         [UIColor colorWithCGColor:self.L11.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L31.layer.backgroundColor], 
+                                                         nil]].CGColor;
+    self.L12.layer.backgroundColor = [UIColor rybMixForColors:[NSArray arrayWithObjects:
+                                                         [UIColor colorWithCGColor:self.L11.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L13.layer.backgroundColor], 
+                                                         nil]].CGColor;
+    self.L23.layer.backgroundColor = [UIColor rybMixForColors:[NSArray arrayWithObjects:
+                                                         [UIColor colorWithCGColor:self.L13.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L33.layer.backgroundColor], 
+                                                         nil]].CGColor;
+    self.L32.layer.backgroundColor = [UIColor rybMixForColors:[NSArray arrayWithObjects:
+                                                         [UIColor colorWithCGColor:self.L31.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L33.layer.backgroundColor], 
+                                                         nil]].CGColor;
+    self.L22.layer.backgroundColor = [UIColor rybMixForColors:[NSArray arrayWithObjects:
+                                                         [UIColor colorWithCGColor:self.L11.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L13.layer.backgroundColor], 
+                                                         [UIColor colorWithCGColor:self.L31.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L33.layer.backgroundColor], 
+                                                         nil]].CGColor;
 }
 
 - (void)recolorLabelsCMYK {
-    self.L21.backgroundColor = [UIColor cmykMixForColors:[NSArray arrayWithObjects:
-                                                         self.L11.backgroundColor,
-                                                         self.L31.backgroundColor, 
-                                                         nil]];
-    self.L12.backgroundColor = [UIColor cmykMixForColors:[NSArray arrayWithObjects:
-                                                         self.L11.backgroundColor,
-                                                         self.L13.backgroundColor, 
-                                                         nil]];
-    self.L23.backgroundColor = [UIColor cmykMixForColors:[NSArray arrayWithObjects:
-                                                         self.L13.backgroundColor,
-                                                         self.L33.backgroundColor, 
-                                                         nil]];
-    self.L32.backgroundColor = [UIColor cmykMixForColors:[NSArray arrayWithObjects:
-                                                         self.L31.backgroundColor,
-                                                         self.L33.backgroundColor, 
-                                                         nil]];
-    self.L22.backgroundColor = [UIColor cmykMixForColors:[NSArray arrayWithObjects:
-                                                         self.L11.backgroundColor,
-                                                         self.L13.backgroundColor, 
-                                                         self.L31.backgroundColor,
-                                                         self.L33.backgroundColor, 
-                                                         nil]];
+    self.L21.layer.backgroundColor = [UIColor cmykMixForColors:[NSArray arrayWithObjects:
+                                                         [UIColor colorWithCGColor:self.L11.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L31.layer.backgroundColor], 
+                                                         nil]].CGColor;
+    self.L12.layer.backgroundColor = [UIColor cmykMixForColors:[NSArray arrayWithObjects:
+                                                         [UIColor colorWithCGColor:self.L11.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L13.layer.backgroundColor], 
+                                                         nil]].CGColor;
+    self.L23.layer.backgroundColor = [UIColor cmykMixForColors:[NSArray arrayWithObjects:
+                                                         [UIColor colorWithCGColor:self.L13.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L33.layer.backgroundColor], 
+                                                         nil]].CGColor;
+    self.L32.layer.backgroundColor = [UIColor cmykMixForColors:[NSArray arrayWithObjects:
+                                                         [UIColor colorWithCGColor:self.L31.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L33.layer.backgroundColor], 
+                                                         nil]].CGColor;
+    self.L22.layer.backgroundColor = [UIColor cmykMixForColors:[NSArray arrayWithObjects:
+                                                         [UIColor colorWithCGColor:self.L11.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L13.layer.backgroundColor], 
+                                                         [UIColor colorWithCGColor:self.L31.layer.backgroundColor],
+                                                         [UIColor colorWithCGColor:self.L33.layer.backgroundColor], 
+                                                         nil]].CGColor;
 }
 
 - (void)recolorLabels {
-    switch (self.colorModeSegmentedControl.selectedSegmentIndex) {
-        case 0:
-            [self recolorLabelsRGB];
-            break;
-        case 1:
-            [self recolorLabelsRYB];
-            break;
-        case 2:
-            [self recolorLabelsCMYK];
-            break;
-    }
+    [UIView animateWithDuration:.5 animations:^{
+        switch (self.colorModeSegmentedControl.selectedSegmentIndex) {
+            case 0:
+                [self recolorLabelsRGB];
+                break;
+            case 1:
+                [self recolorLabelsRYB];
+                break;
+            case 2:
+                [self recolorLabelsCMYK];
+                break;
+        }
+    }];
 }
 
 - (void)randomL11 {
-    self.L11.backgroundColor = [UIColor colorWithRed:(arc4random() % 256) / 255.0 
+    self.L11.layer.backgroundColor = [UIColor colorWithRed:(arc4random() % 256) / 255.0 
                                                green:(arc4random() % 256) / 255.0
                                                 blue:(arc4random() % 256) / 255.0
-                                               alpha:1.0];
+                                               alpha:1.0].CGColor;
 }
 - (void)randomL31 {
-    self.L31.backgroundColor = [UIColor colorWithRed:(arc4random() % 256) / 255.0 
+    self.L31.layer.backgroundColor = [UIColor colorWithRed:(arc4random() % 256) / 255.0 
                                                green:(arc4random() % 256) / 255.0
                                                 blue:(arc4random() % 256) / 255.0
-                                               alpha:1.0];
+                                               alpha:1.0].CGColor;
 }
 - (void)randomL13 {
-    self.L13.backgroundColor = [UIColor colorWithRed:(arc4random() % 256) / 255.0 
+    self.L13.layer.backgroundColor = [UIColor colorWithRed:(arc4random() % 256) / 255.0 
                                                green:(arc4random() % 256) / 255.0
                                                 blue:(arc4random() % 256) / 255.0
-                                               alpha:1.0];
+                                               alpha:1.0].CGColor;
 }
 - (void)randomL33 {
-    self.L33.backgroundColor = [UIColor colorWithRed:(arc4random() % 256) / 255.0 
+    self.L33.layer.backgroundColor = [UIColor colorWithRed:(arc4random() % 256) / 255.0 
                                                green:(arc4random() % 256) / 255.0
                                                 blue:(arc4random() % 256) / 255.0
-                                               alpha:1.0];
+                                               alpha:1.0].CGColor;
 }
 
 - (void)labelTapped:(UITapGestureRecognizer*)sender {
+    [UIView animateWithDuration:.5 animations:^{
     if (sender.view == self.L11 ||
         sender.view == self.L31 ||
         sender.view == self.L13 ||
         sender.view == self.L33) {
-        sender.view.backgroundColor = [UIColor colorWithRed:(arc4random() % 256) / 255.0 
+        sender.view.layer.backgroundColor = [UIColor colorWithRed:(arc4random() % 256) / 255.0 
                                                       green:(arc4random() % 256) / 255.0
                                                        blue:(arc4random() % 256) / 255.0
-                                                      alpha:1.0];
+                                                      alpha:1.0].CGColor;
     } else if (sender.view == self.L12) {
         [self randomL11];
         [self randomL13];
@@ -166,6 +170,7 @@
         [self randomL33];        
     }
     [self recolorLabels];
+    }];
 }
 
 - (void)viewDidLoad {

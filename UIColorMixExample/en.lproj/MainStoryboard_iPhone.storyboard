@@ -16,31 +16,31 @@
                             <label opaque="NO" clipsSubviews="YES" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="lbz-tm-aq4" userLabel="L11">
                                 <rect key="frame" x="-1" y="0.0" width="107" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="6IE-kj-6VQ" userLabel="L13">
-                                <rect key="frame" x="-1" y="277" width="107" height="139"/>
+                                <rect key="frame" x="-1" y="278" width="107" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.41176474089999998" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="kfW-lt-a0h" userLabel="L33">
-                                <rect key="frame" x="213" y="277" width="107" height="139"/>
+                                <rect key="frame" x="213" y="278" width="107" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.81176477670000002" green="0.64705884459999996" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="Cup-qx-Jwq" userLabel="L23">
-                                <rect key="frame" x="106" y="277" width="107" height="139"/>
+                                <rect key="frame" x="106" y="278" width="107" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.392156899" green="0.078431375319999996" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -48,31 +48,31 @@
                             <label opaque="NO" clipsSubviews="YES" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="17O-IC-svy" userLabel="L21">
                                 <rect key="frame" x="106" y="0.0" width="107" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.392156899" green="0.078431375319999996" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="J16-V8-6YL" userLabel="L32">
-                                <rect key="frame" x="213" y="138" width="107" height="139"/>
+                                <rect key="frame" x="213" y="139" width="107" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.392156899" green="0.078431375319999996" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="GXI-7u-JcO" userLabel="L22">
-                                <rect key="frame" x="106" y="138" width="107" height="139"/>
+                                <rect key="frame" x="106" y="139" width="107" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.023529414089999999" blue="0.64705884459999996" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="lPD-I0-1kJ" userLabel="L12">
-                                <rect key="frame" x="-1" y="138" width="107" height="139"/>
+                                <rect key="frame" x="-1" y="139" width="107" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.392156899" green="0.078431375319999996" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -80,7 +80,7 @@
                             <label opaque="NO" clipsSubviews="YES" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="vX4-dx-a4T" userLabel="L31">
                                 <rect key="frame" x="213" y="0.0" width="107" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -92,7 +92,7 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="4LA-Cj-yBa"/>
                                     <barButtonItem style="plain" id="zho-rY-1Sz">
                                         <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="sJs-KF-SbF">
-                                            <rect key="frame" x="55" y="8" width="210" height="30"/>
+                                            <rect key="frame" x="40" y="8" width="240" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <segments>
                                                 <segment title="RGB"/>
@@ -129,24 +129,6 @@
             </objects>
         </scene>
     </scenes>
-    <classes>
-        <class className="CMEViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CMEViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="colorModeSegmentedControlPressed:" candidateClass="UISegmentedControl"/>
-                <relationship kind="outlet" name="L11" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L12" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L13" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L21" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L22" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L23" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L31" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L32" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L33" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="colorModeSegmentedControl" candidateClass="UISegmentedControl"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
