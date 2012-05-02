@@ -10,4 +10,22 @@
 
 @interface CMEViewController : UIViewController
 
+- (IBAction)colorModeSegmentedControl:(id)sender;
+// Top row:
+@property (weak, nonatomic) IBOutlet UILabel *L11;
+@property (weak, nonatomic) IBOutlet UILabel *L21;
+@property (weak, nonatomic) IBOutlet UILabel *L31;
+
+// Middle row:
+
+@property (weak, nonatomic) IBOutlet UILabel *L12;
+@property (weak, nonatomic) IBOutlet UILabel *L22;
+@property (weak, nonatomic) IBOutlet UILabel *L32;
+
+
+// Bottom row:
+@property (weak, nonatomic) IBOutlet UILabel *L13;
+@property (weak, nonatomic) IBOutlet UILabel *L23;
+@property (weak, nonatomic) IBOutlet UILabel *L33;
+
 @end
