@@ -10,7 +10,7 @@
 
 @interface CMEViewController : UIViewController
 
-- (IBAction)colorModeSegmentedControl:(id)sender;
+- (IBAction)colorModeSegmentedControlPressed:(id)sender;
 
 // Top row:
 @property (weak, nonatomic) IBOutlet UILabel *L11;

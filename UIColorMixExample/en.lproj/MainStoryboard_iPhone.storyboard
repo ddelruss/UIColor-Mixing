@@ -100,7 +100,7 @@
                                                 <segment title="CMYK"/>
                                             </segments>
                                             <connections>
-                                                <action selector="colorModeSegmentedControl:" destination="2" eventType="valueChanged" id="T7a-5Q-j3k"/>
+                                                <action selector="colorModeSegmentedControlPressed:" destination="2" eventType="valueChanged" id="Xlw-F3-IHD"/>
                                             </connections>
                                         </segmentedControl>
                                     </barButtonItem>
@@ -126,23 +126,6 @@
             </objects>
         </scene>
     </scenes>
-    <classes>
-        <class className="CMEViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CMEViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="colorModeSegmentedControl:"/>
-                <relationship kind="outlet" name="L11" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L12" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L13" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L21" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L22" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L23" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L31" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L32" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="L33" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
