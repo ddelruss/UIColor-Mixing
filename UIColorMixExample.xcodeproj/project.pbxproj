@@ -141,7 +141,7 @@
 		DB6F633915516DB00041C07E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = DB6F633C15516DB00041C07E /* Build configuration list for PBXProject "UIColorMixExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -305,6 +305,7 @@
 				DB6F636515516DB10041C07E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
