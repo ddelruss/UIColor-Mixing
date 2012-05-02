@@ -74,6 +74,31 @@
                                                          nil]];
 }
 
+- (void)recolorLabelsCMYK {
+    self.L21.backgroundColor = [UIColor cmykMixForColors:[NSArray arrayWithObjects:
+                                                         self.L11.backgroundColor,
+                                                         self.L31.backgroundColor, 
+                                                         nil]];
+    self.L12.backgroundColor = [UIColor cmykMixForColors:[NSArray arrayWithObjects:
+                                                         self.L11.backgroundColor,
+                                                         self.L13.backgroundColor, 
+                                                         nil]];
+    self.L23.backgroundColor = [UIColor cmykMixForColors:[NSArray arrayWithObjects:
+                                                         self.L13.backgroundColor,
+                                                         self.L33.backgroundColor, 
+                                                         nil]];
+    self.L32.backgroundColor = [UIColor cmykMixForColors:[NSArray arrayWithObjects:
+                                                         self.L31.backgroundColor,
+                                                         self.L33.backgroundColor, 
+                                                         nil]];
+    self.L22.backgroundColor = [UIColor cmykMixForColors:[NSArray arrayWithObjects:
+                                                         self.L11.backgroundColor,
+                                                         self.L13.backgroundColor, 
+                                                         self.L31.backgroundColor,
+                                                         self.L33.backgroundColor, 
+                                                         nil]];
+}
+
 - (void)recolorLabels {
     switch (self.colorModeSegmentedControl.selectedSegmentIndex) {
         case 0:
@@ -81,6 +106,9 @@
             break;
         case 1:
             [self recolorLabelsRYB];
+            break;
+        case 2:
+            [self recolorLabelsCMYK];
             break;
     }
 }
