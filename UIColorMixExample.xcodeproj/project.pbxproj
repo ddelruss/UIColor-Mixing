@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB6F634715516DB00041C07E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6F634615516DB00041C07E /* UIKit.framework */; };
+		DB6F634915516DB00041C07E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6F634815516DB00041C07E /* Foundation.framework */; };
+		DB6F634B15516DB00041C07E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6F634A15516DB00041C07E /* CoreGraphics.framework */; };
+		DB6F635115516DB10041C07E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB6F634F15516DB00041C07E /* InfoPlist.strings */; };
+		DB6F635315516DB10041C07E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F635215516DB10041C07E /* main.m */; };
+		DB6F635715516DB10041C07E /* CMEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F635615516DB10041C07E /* CMEAppDelegate.m */; };
+		DB6F635A15516DB10041C07E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6F635815516DB10041C07E /* MainStoryboard_iPhone.storyboard */; };
+		DB6F635D15516DB10041C07E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6F635B15516DB10041C07E /* MainStoryboard_iPad.storyboard */; };
+		DB6F636015516DB10041C07E /* CMEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F635F15516DB10041C07E /* CMEViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB6F634215516DB00041C07E /* UIColorMixExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIColorMixExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6F634615516DB00041C07E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB6F634815516DB00041C07E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB6F634A15516DB00041C07E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB6F634E15516DB00041C07E /* UIColorMixExample-Info.plist */ = {isa = PBXFileReference; path = "UIColorMixExample-Info.plist"; sourceTree = "<group>"; };
+		DB6F635015516DB00041C07E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB6F635215516DB10041C07E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB6F635415516DB10041C07E /* UIColorMixExample-Prefix.pch */ = {isa = PBXFileReference; path = "UIColorMixExample-Prefix.pch"; sourceTree = "<group>"; };
+		DB6F635515516DB10041C07E /* CMEAppDelegate.h */ = {isa = PBXFileReference; path = CMEAppDelegate.h; sourceTree = "<group>"; };
+		DB6F635615516DB10041C07E /* CMEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMEAppDelegate.m; sourceTree = "<group>"; };
+		DB6F635915516DB10041C07E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		DB6F635C15516DB10041C07E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		DB6F635E15516DB10041C07E /* CMEViewController.h */ = {isa = PBXFileReference; path = CMEViewController.h; sourceTree = "<group>"; };
+		DB6F635F15516DB10041C07E /* CMEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMEViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB6F633F15516DB00041C07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6F634715516DB00041C07E /* UIKit.framework in Frameworks */,
+				DB6F634915516DB00041C07E /* Foundation.framework in Frameworks */,
+				DB6F634B15516DB00041C07E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB6F633715516DB00041C07E = {
+			isa = PBXGroup;
+			children = (
+				DB6F634C15516DB00041C07E /* UIColorMixExample */,
+				DB6F634515516DB00041C07E /* Frameworks */,
+				DB6F634315516DB00041C07E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB6F634315516DB00041C07E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB6F634215516DB00041C07E /* UIColorMixExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB6F634515516DB00041C07E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB6F634615516DB00041C07E /* UIKit.framework */,
+				DB6F634815516DB00041C07E /* Foundation.framework */,
+				DB6F634A15516DB00041C07E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB6F634C15516DB00041C07E /* UIColorMixExample */ = {
+			isa = PBXGroup;
+			children = (
+				DB6F635515516DB10041C07E /* CMEAppDelegate.h */,
+				DB6F635615516DB10041C07E /* CMEAppDelegate.m */,
+				DB6F635815516DB10041C07E /* MainStoryboard_iPhone.storyboard */,
+				DB6F635B15516DB10041C07E /* MainStoryboard_iPad.storyboard */,
+				DB6F635E15516DB10041C07E /* CMEViewController.h */,
+				DB6F635F15516DB10041C07E /* CMEViewController.m */,
+				DB6F634D15516DB00041C07E /* Supporting Files */,
+			);
+			path = UIColorMixExample;
+			sourceTree = "<group>";
+		};
+		DB6F634D15516DB00041C07E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB6F634E15516DB00041C07E /* UIColorMixExample-Info.plist */,
+				DB6F634F15516DB00041C07E /* InfoPlist.strings */,
+				DB6F635215516DB10041C07E /* main.m */,
+				DB6F635415516DB10041C07E /* UIColorMixExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB6F634115516DB00041C07E /* UIColorMixExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6F636315516DB10041C07E /* Build configuration list for PBXNativeTarget "UIColorMixExample" */;
+			buildPhases = (
+				DB6F633E15516DB00041C07E /* Sources */,
+				DB6F633F15516DB00041C07E /* Frameworks */,
+				DB6F634015516DB00041C07E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIColorMixExample;
+			productName = UIColorMixExample;
+			productReference = DB6F634215516DB00041C07E /* UIColorMixExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB6F633915516DB00041C07E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DB6F633C15516DB00041C07E /* Build configuration list for PBXProject "UIColorMixExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB6F633715516DB00041C07E;
+			productRefGroup = DB6F634315516DB00041C07E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB6F634115516DB00041C07E /* UIColorMixExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB6F634015516DB00041C07E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6F635115516DB10041C07E /* InfoPlist.strings in Resources */,
+				DB6F635A15516DB10041C07E /* MainStoryboard_iPhone.storyboard in Resources */,
+				DB6F635D15516DB10041C07E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB6F633E15516DB00041C07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6F635315516DB10041C07E /* main.m in Sources */,
+				DB6F635715516DB10041C07E /* CMEAppDelegate.m in Sources */,
+				DB6F636015516DB10041C07E /* CMEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB6F634F15516DB00041C07E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6F635015516DB00041C07E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB6F635815516DB10041C07E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6F635915516DB10041C07E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DB6F635B15516DB10041C07E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6F635C15516DB10041C07E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB6F636115516DB10041C07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB6F636215516DB10041C07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB6F636415516DB10041C07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIColorMixExample/UIColorMixExample-Prefix.pch";
+				INFOPLIST_FILE = "UIColorMixExample/UIColorMixExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB6F636515516DB10041C07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIColorMixExample/UIColorMixExample-Prefix.pch";
+				INFOPLIST_FILE = "UIColorMixExample/UIColorMixExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB6F633C15516DB00041C07E /* Build configuration list for PBXProject "UIColorMixExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6F636115516DB10041C07E /* Debug */,
+				DB6F636215516DB10041C07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB6F636315516DB10041C07E /* Build configuration list for PBXNativeTarget "UIColorMixExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6F636415516DB10041C07E /* Debug */,
+				DB6F636515516DB10041C07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB6F633915516DB00041C07E /* Project object */;
+}
